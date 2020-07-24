@@ -1,0 +1,38 @@
+\:root{
+  --bg: black;
+}
+
+body {
+  margin: 0;
+  font-family: calibri;
+}
+
+.logo{
+  margin-top: 2em;
+  img:hover{ 
+    filter: saturate(3);
+    transition: filter 1s;
+  }
+}
+
+nav{
+  width: 100%;
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content:  space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    color: black;
+    padding-top: 2em;
+    a{
+      color: black;
+		}
+	}
+}
+
+button{
+  color: black;
+  font-weight: bold;
+}

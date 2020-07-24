@@ -1,0 +1,29 @@
+{
+  "name": "ts-svelte",
+  "version": "1.0.0",
+  "description": "svelte template with parcel, scss, typescript and yarn",
+  "main": "main.js",
+  "repository": "https://github.com/Gracrys/ts-svelte.git",
+  "author": "Gracrys <gracrys@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/svelte": "^1.0.2",
+    "node-css": "^0.1.0",
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "pug": "^2.0.4",
+    "sass": "^1.25.0",
+    "svelte": "^3.18.1",
+    "svelte-check": "^0.1.55",
+    "svelte-preprocess": "^3.4.0",
+    "typescript": "^3.9.7"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html -d public --public-url ./"
+  }
+}
