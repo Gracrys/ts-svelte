@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # svelte-template
 Svelte template with sass, parcel and yarn
 
@@ -19,3 +20,7 @@ For a production approach, all compiled files can be found in the public folder.
 
 
 
+=======
+# ts-svelte
+Svelte template with typescript and scss with yarn
+>>>>>>> be8eb803291f2a74a27b9290585d1149377d413b
