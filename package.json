@@ -9,7 +9,7 @@
   "devDependencies": {
     "@tsconfig/svelte": "^1.0.2",
     "node-css": "^0.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-svelte": "^4.0.6",
     "pug": "^2.0.4",
